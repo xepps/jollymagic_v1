@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<NavBar>
+    <item>
+        <name>Home</name>
+        <alt>Home</alt>
+    </item>
+    <item>
+        <name>MrJolly</name>
+        <alt>Mr Jolly</alt>
+    </item>
+    <item>
+        <name>Safeguarding</name>
+        <alt>Safeguarding Magic Show</alt>
+    </item>
+    <item>
+        <name>CloseUpMagic</name>
+        <alt>Close-up Magic</alt>
+    </item>
+    <item>
+        <name>BalloonModelling</name>
+        <alt>Balloon Modelling</alt>
+    </item>
+    <item>
+        <name>Casinos</name>
+        <alt>Casino Nights</alt>
+    </item>
+    <item>
+        <name>ContactMe</name>
+        <alt>Contact Me!</alt>
+    </item>
+</NavBar>

@@ -1,0 +1,134 @@
+.menu
+{
+    background: none;
+    border: none;
+    height: 50px;
+    margin: 10px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 50px;
+    z-index: 10;
+
+    span {
+        color: red;
+        display: block;
+        font-size: 50px;
+        margin: auto;
+        position: relative;
+    }
+
+    @include phone-landscape {
+        height: 64px;
+        width: 64px;
+
+        span {
+            font-size: 64px;
+        }
+    }
+
+    @include tablet {
+        height: 100px;
+        width: 100px;
+
+        span {
+            font-size: 100px;
+        }
+    }
+
+    @include desktop {
+        display: none;
+    }
+}
+
+.leftCol {
+    width: 100%;
+
+    .leftLogo {
+        background:url(#{$image_path}/branding/logoBottom.png) no-repeat;
+        display: none;
+        float:left;
+        height:120px;
+        width:220px;
+
+        @include desktop {
+            display: block;
+        }
+    }
+
+    .navBar {
+
+        border-top:solid 3px red;
+        border-bottom: solid 3px red;
+        display: none;
+        margin-bottom: 20px;
+
+        a {
+            text-decoration:none;
+        }
+
+        li {
+            text-align: center;
+        }
+
+        li:nth-child(odd) {
+            background: mistyrose;
+        }
+
+        li:hover {
+            background: red;
+        }
+
+        h3:hover {
+            color: white;
+        }
+
+        h3 {
+            line-height: 5rem;
+
+            @include desktop {
+                display: none;
+            }
+        }
+
+        img {
+            display: none;
+        }
+
+        @include desktop {
+            border: none;
+            display: block !important;
+            float:left;
+            margin: 0;
+            width:220px;
+
+            li {
+                text-align: left;
+            }
+
+            li:nth-child(odd) {
+                background: none;
+            }
+
+            li:hover {
+                background: none;
+            }
+
+            h3 {
+                display: none;
+            }
+
+            img {
+                display: inline-block;
+                vertical-align: middle;
+            }
+        }
+    }
+
+    @include desktop {
+        display: block;
+        float:left;
+        height:540px;
+        width:220px;
+    }
+}

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<page>
+    <title>
+        <text>Close Up Magic</text>
+        <image>closeup/Title_Close_magic.jpg</image>
+    </title>
+    <content>CloseUpMagic</content>
+    <navigation>
+        <next>BalloonModelling</next>
+        <previous>Safeguarding</previous>
+    </navigation>
+</page>

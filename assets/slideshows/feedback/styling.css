@@ -1,0 +1,24 @@
+/* CSS Document */
+#slideshowContainer {
+	height:140px;
+	width:220px;
+	float:left;
+	margin:10px;
+}
+
+#slideshowControls img {
+	padding:0px;
+	margin:0;
+}
+#slideshow {
+	height:140px;
+	width:220px;
+	overflow:hidden;
+}
+
+.slide {
+	width:220px;
+	height:140px;
+	float:left;
+	vertical-align:middle;
+}

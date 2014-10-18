@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<page>
+    <title>
+        <text>Balloon Modelling</text>
+        <image>balloon/Title_Balloon.jpg</image>
+    </title>
+    <content>BalloonModelling</content>
+    <navigation>
+        <next>Casinos</next>
+        <previous>CloseUpMagic</previous>
+    </navigation>
+</page>

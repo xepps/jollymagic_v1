@@ -1,0 +1,11 @@
+# Stop directory indexing
+
+        RewriteEngine On
+        
+        RewriteCond %{REQUEST_FILENAME} !-f
+        RewriteCond %{REQUEST_FILENAME} !-d
+        
+        RewriteRule ^(.+)$ start.php?url_request_array=$1 [L,QSA]
+        RewriteRule ^/$ start.php?url_request_array= [L,QSA]
+        RewriteRule ^$ start.php?url_request_array= [L,QSA]
+        #DirectoryIndex status.html

@@ -1,0 +1,40 @@
+/* CSS Document */
+.slideshowContainer {
+	height:200px;
+	width:300px;
+	background:url(images/background.png);
+	float:left;
+	margin:10px 10px 20px 10px;
+}
+.slideshowControls {
+	height:30px;
+	float:right;
+    margin-top: -3px;
+}
+.slideshowControls button {
+    border: none;
+    background: none;
+}
+
+.slideshowControls img {
+    margin: 0;
+}
+
+.slideshow {
+	height:160px;
+	width:280px;
+	margin:30px 10px 10px 10px;
+	overflow:hidden;
+}
+
+.slide {
+	width:280px;
+	height:160px;
+	float:left;
+	vertical-align:middle;
+}
+
+.news .style5 {
+    display: block;
+    margin-top: 10px;
+}

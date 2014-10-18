@@ -1,0 +1,52 @@
+.branding {
+    height:64px;
+    width: 100%;
+
+    @include phone-landscape {
+        height: 80px;
+    }
+
+    @include tablet {
+        height: 120px;
+    }
+
+    @include desktop {
+        float: left;
+        height: 90px;
+        width:960px;
+    }
+
+    .title {
+        background:url(#{$image_path}branding/mainHeader.png) no-repeat;
+        display: none;
+        float:left;
+        height:90px;
+        width:600px;
+
+        @include desktop {
+            display: block;
+        }
+    }
+
+    .mobile_title {
+        display: block;
+        float: left;
+        width: 80%;
+
+        @include desktop {
+            display: none;
+        }
+    }
+
+    .splash {
+        display: none;
+        float:left;
+        height:75px;
+        padding-top:15px;
+        width:360px;
+
+        @include desktop {
+            display: block;
+        }
+    }
+}

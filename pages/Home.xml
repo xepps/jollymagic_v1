@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<page>
+    <title>
+        <text>Home Page</text>
+    </title>
+    <content>Home</content>
+    <navigation>
+        <next>MrJolly</next>
+    </navigation>
+</page>

@@ -1,0 +1,95 @@
+.ContactBoxBak {
+    background-attachment: scroll;
+    background-image:url(#{$image_path}booknow/Contact_Box_back.gif);
+    background-repeat: repeat-x;
+    background-position: left top;
+}
+.ContactCardBack {
+    background-attachment: scroll;
+    background-image: url(#{$image_path}booknow/Contact_card.gif);
+    background-repeat: no-repeat;
+    background-position: left top;
+}
+
+#contactTable {
+
+    margin: auto;
+    max-width: 500px;
+
+    .left {
+        margin: 20px;
+
+        @include phone-landscape {
+            float: left;
+            margin: 0;
+        }
+    }
+
+    .right {
+        margin: 20px;
+
+        @include phone-landscape {
+            float: right;
+            margin: 0;
+        }
+    }
+
+    .top {
+        display: none;
+
+        @include phone-landscape {
+            display: block;
+        }
+    }
+
+    img {
+        padding: 0;
+        margin: 0;
+    }
+}
+
+div#output form input.text, div#output form input.button, div#output form select, div#output form textarea {
+    margin-top:2px
+}
+html>body input.text, html>body input.button html>body select {
+    height:1em
+}
+*:root input.text, *:root input.button, *:root select {
+    height:auto
+}
+
+input.text, input.button, textarea, select {
+    font:7pt "Verdana","Arial","Helvetica",sans-serif;
+    font-weight:normal
+}
+input.button {
+    border:1px solid #FFFFFF;
+    padding:.1em .1em;
+    cursor:pointer;
+    color:#000000;
+    background-color:#FFFFFF;
+    border-radius:.4em
+}
+input[type="submit"]:hover, input[type="submit"]:focus {
+    background-color:#FFFFFF
+}
+input[type="submit"]:active {
+    background-color:#FFFFFF
+}
+input[type="submit"][disabled] {
+    border-color:#FFFFFF;
+    color:#000000;
+    background-color:#FFFFFF
+}
+input.text, textarea, select {
+    border:1px solid #FFFFFF;
+    color:#000000;
+    background-color:#FFFFFF;
+    letter-spacing:0px
+}
+input[type="text"]:hover, input[type="password"]:hover, textarea:hover, select:hover {
+    background-color:#FFFFFF
+}
+input[type="text"]:focus, input[type="password"]:focus, textarea:focus, select:focus {
+    background-color:#FFFFFF
+}

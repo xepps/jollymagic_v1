@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<page>
+    <title>
+        <text>Contact Me</text>
+        <image>booknow/title_booknow.png</image>
+    </title>
+    <content>ContactMe</content>
+    <navigation>
+        <previous>Casinos</previous>
+    </navigation>
+</page>

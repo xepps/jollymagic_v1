@@ -1,0 +1,128 @@
+html {
+    font-size: 10px;
+}
+
+* {
+    margin:0;
+    padding:0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+p, table, span {
+    margin:0.5em 0;
+    text-align: justify;
+    font-size: 1.8rem;
+    line-height: 2rem;
+
+    @include desktop {
+        font-size: 1.4rem;
+        line-height: 1.6rem;
+    }
+}
+
+body {
+    background-color:#fff;
+}
+
+img {
+    border:0;
+}
+
+a {
+    border: 0;
+    color: #FF0000;
+    font-weight: bold;
+    text-decoration: underline;
+
+    &:hover {
+        text-decoration: none;
+        color: #FF4B4A;
+    }
+
+    &:active {
+        text-decoration: underline;
+        color: #FF4B4A;
+    }
+
+    img {
+        border: none;
+    }
+}
+
+h3 {
+    font-size: 2.2rem;
+    line-height: 2.4rem;
+
+    @include desktop {
+        font-size: 1.8rem;
+        line-height: 2rem;
+    }
+}
+
+hr {
+    background:#F00;
+    border: none;
+    width:100%;
+    height:4px;
+    margin:auto;
+}
+
+.wrapper {
+    overflow:hidden;
+    padding:0;
+    position: relative;
+
+    @include phone-landscape {
+        border: 5px solid red;
+        border-radius: 20px;
+        margin: 5px 20px;
+    }
+
+    @include desktop {
+        border: none;
+        border-radius: 0;
+        margin:auto;
+        width:960px;
+    }
+}
+
+.clear {
+    clear: both;
+}
+
+.textTitle {
+    color:#ff0000;
+    font-weight:bolder;
+    font-size: 2rem;
+    line-height: 2.2rem;
+
+    @include desktop {
+        font-size:1.6rem;
+        line-height: 1.8em;
+    }
+}
+
+.style3 {
+    color: #000000;
+    font-size: 1.4rem;
+    line-height: 1.6rem;
+}
+
+.style5 {
+    font-size: 1.4rem;
+    line-height: 1.6rem;
+    font-weight: bold;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+
+    @include desktop {
+        font-size: 1rem;
+        line-height: 1.2rem;
+    }
+}
+
+.style15 {
+    color: #FF0000;
+    font-weight: bold;
+}
+
+

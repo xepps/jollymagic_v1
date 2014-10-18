@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<page>
+    <title>
+        <text>Casino Nights</text>
+        <image>casino/Title_Casino.jpg</image>
+    </title>
+    <content>Casinos</content>
+    <navigation>
+        <next>ContactMe</next>
+        <previous>BalloonModelling</previous>
+    </navigation>
+</page>

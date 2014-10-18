@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<page>
+    <title>
+        <text>Mr Jolly</text>
+        <image>mrjolly/Title_Puppet.gif</image>
+    </title>
+    <content>MrJolly</content>
+    <navigation>
+        <next>Safeguarding</next>
+        <previous>Home</previous>
+    </navigation>
+</page>
